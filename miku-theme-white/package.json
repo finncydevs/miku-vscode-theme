@@ -1,0 +1,21 @@
+{
+    "name": "miku-white-theme",
+    "displayName": "My custom miku white theme",
+    "description": "A custom theme for Visual Studio Code with miku foreground colors",
+    "version": "0.1.0",
+    "publisher": "finn-niku",
+    "engines": {
+      "vscode": "^1.70.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "My Custom Theme",
+          "uiTheme": "vs-light", 
+          "path": "./theme.json"
+        }
+      ]
+    }
+  }
+  
